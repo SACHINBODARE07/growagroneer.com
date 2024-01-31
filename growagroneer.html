@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grow_Agroneer</title> <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="stylesheet" type="text/css" href="SB.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="Home1.html"><img src="Grow_Agroneer.png" alt="Logo">
+        </div>
+        <div class="welcome">
+            <h1>WELCOME</h1>
+            <br>
+            <h2>TO GROW AGRONEER PVT LIMITED – PRODUCTS & SERVICES!!!</h2>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="video-container">
+        <div class="video">
+            <iframe width="100%" height="100%"src="https://www.youtube.com/embed/SVjGGbfU9I8?si=pn6X3B7A4EAkbkIN" frameborder="0" allow="autoplay" allowfullscreen  ></iframe>
+        </div>
+    </section>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#youtube">YouTube</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+        </ul>
+    </nav>
+    <section id="content">
+        <h3>PRODUCTS</h3>
+
+        <div class="images">
+            <div class="image">
+                <img src="Drip and Sprinkler Images.png" alt="Image 1">
+                <p>DRIP & SPRINKLER IRRIGATION</p>
+            </div>
+            <div class="image">
+                <img src="Green and Polyhouse Irrigation.png" alt="Image 2">
+                <p>GREEN & POLYHOUSE IRRIGATION</p>
+            </div>
+            <div class="image">
+                <img src="Landscape & Turf Irrigation.png" alt="Image 3">
+                <p>LANDSCAPE & TURF IRRIGATION</p>
+            </div>
+            <div class="image">
+                <img src="Lift Irrigation & Automation.png" alt="Image 4">
+                <p>LIFT IRRIGATION & AUTOMATION</p>
+            </div>
+            <div class="image">
+                <img src="Poultry & Dairy Technologies.png" alt="Image 5">
+                <p>POULTRY & DAIRY TECHNOLOGIES</p>
+            </div>
+            <div class="image">
+                <img src="Farm Mechanization Solutions.png" alt="Image 6">
+                <p>FARM MECHANIZATION SOLUTIONS</p>
+            </div>
+            <div class="image">
+                <img src="Seeds,Fertilizers & Pesticides.png" alt="Image 7">
+                <p>SEEDS, FERTILIZERS & PESTICIDES</p>
+            </div>
+            <div class="image">
+                <img src="Design & Agronomical Support.png" alt="Image 8">
+                <p>DESIGN & AGRONOMICAL SUPPORT</p>
+            </div>
+        </div>
+        <div id="about">
+            <h2>About Us</h2>
+            <p>We're here to help & provide the economical solutions to the entire farming community. This will help the farmers & professionals to know
+                about an Irrigation, Agri. Mechanization, Green House Technologies, Irrigation Automation, Landscape & Turf Gardening, Kitchen & Home
+                Gardening, Agriculture Inputs i.e. Seeds, Fertilizers, Pesticides & Chemigation Technologies. Our aims is to change the view of people looking at
+                farming and the stereotypes around them, while solving real problems in the fields. We're solution providers & implementer. We're striving to
+                make farming more profitable by applying technology and a diverse range of solutions. Join to our great vision & let us make successful</p>
+        </div>
+    </section>
+    <section id="contact">
+        <h1>CONTACT US</h1>
+        <div class="contact-details">
+            <div class="contact-info">
+                <h2>FOR MORE DETAILS, PLEASE CONTACT US:</h2>
+                <p> Er. Santosh Chavan (M.Tech – Soil & Water Engineering)</p>
+                <ul>
+                <li><a href="mailto:agro.engineer2023@gmail.com">Email ID: agro.engineer2023@gmail.com</a></li>
+            </ul>
+                <p>Contact Number: 9975322017</p>
+            </div>
+            <div class="container">
+                <h1>Contact Form</h1>
+                <p class="main_heading">We will get back to you ASAP!</p>
+                <form id="contactForm">
+                    <p>
+                        <input type="text" class="First name" id="firstName" placeholder="First Name">
+                        <input type="text" class="Last name" id="lastName" placeholder="Last Name">
+                    </p>
+                    <p>
+                        <input type="email" name="Email" id="Email" placeholder="Your Email address">
+                    </p>
+                    <p>
+                        <input type="number" name="Phone" id="Phone" placeholder="Phone">
+                    </p>
+                    <p>
+                        <input type="submit" value="Send">
+                    </p>
+                </form>
+                <div id="successMessage" class="hidden">
+                    <p>Your message has been submitted successfully! We will get back to you soon.</p>
+                </div>
+            </div>
+    <footer>
+        <img src="Thank You.png" alt="Thank You">
+        <p>THANK YOU</p>
+    </footer>
+</body>
+<script src="script.js"></script>
+<script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+<script>
+  window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
+  /* customize formbutton below*/     
+  formbutton("create", {
+    action: "https://formspree.io/f/mzbllzny",
+    title: "Contact US",
+    fields: [
+      { 
+        type: "email", 
+        label: "Email:", 
+        name: "email",
+        required: true,
+        placeholder: "your@email.com"
+      },
+      {
+        type: "textarea",
+        label: "Message:",
+        name: "message",
+        placeholder: "What's on your mind?",
+      },
+      { type: "submit" }      
+    ],
+    styles: {
+      title: {
+        backgroundColor: "red"
+      },
+      button: {
+        backgroundColor: "red"
+      }
+    }
+  });
+</script>
+
+</html>
